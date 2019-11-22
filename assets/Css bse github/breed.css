@@ -1,0 +1,11 @@
+/*
+*************************************************
+FIFe
+Breed Section Additional Screen Styles
+Created by Bob Schwartz
+http://www.fotografics.it
+*************************************************
+*/
+.links ul{margin:0 0 20px 15px}.links li.redbld{list-style:none}#con{width:100%;margin:0 0 15px 0;border-top:1px solid #4e3114;border-right:1px solid #4e3114;line-height:2em}/* don't put line height on th,td as it effects the calender cells */
+#con th,td{padding-left:5px;border-bottom:solid #4e3114 1px;border-left:solid #4e3114 1px}#con a{text-align:center}#con a:hover{color:#900}#con a:active{color:#f00}#con caption{visibility:hidden}#sp{width:100%;margin:0 0 15px 0;border-top:solid #4e3114 1px;border-right:solid #4e3114 1px;line-height:2em}/* don't put line height on th,td as it effects the calender cells */
+#sp th,td{border-bottom:solid #4e3114 1px;border-left:solid #4e3114 1px;padding:0}#sp a{display:block;width:100%}#sp a:hover{background-color:#4e3114;color:#fff}#sp a:active{background-color:#4e3114;color:#f00}#sp caption{visibility:hidden}.w15{width:15%}.redbld{padding-left:5px}
