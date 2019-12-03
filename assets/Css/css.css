@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6 {font-family: 'Ubuntu', sans-serif;}
+h2 {height: 10%;}
+h3 {height: 8%;}
+p,li {font-family: 'Roboto', sans-serif;
+font-size: 1rem;}
+body>h1{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+body>h2{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+
+body>h3{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+
+body>h4{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+
+body>h5{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+div>h3{text-shadow: 2px 4px 10px yellow;}
+div>h2 {text-shadow: 2px 4px 10px yellow;}
+
+body>h6{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+center>h3 {box-shadow: 2px 4px 10px red;
+background-color: grey;}
+.rest h3{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+
+.rest h2{box-shadow: 2px 4px 10px red;
+background-color: grey;}
+a:link:hover {
+    color: cyan;
+}
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+:visited {
+    color: lime;
+}
+:link {
+    color: yellow;
+}
