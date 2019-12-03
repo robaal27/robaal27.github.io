@@ -16,9 +16,12 @@ background-color: grey;}
 
 body>h5{box-shadow: 2px 4px 10px red;
 background-color: grey;}
-div>h3{text-shadow: 2px 4px 10px yellow;}
-div>h2 {text-shadow: 2px 4px 10px yellow;}
-
+.column1>h3{text-shadow: 2px 4px 10px yellow;}
+.column1>h2 {text-shadow: 2px 4px 10px yellow;}
+.column2>h3{text-shadow: 2px 4px 10px yellow;}
+.column2>h2 {text-shadow: 2px 4px 10px yellow;}
+.column3>h3{text-shadow: 2px 4px 10px yellow;}
+.column3>h2 {text-shadow: 2px 4px 10px yellow;}
 body>h6{box-shadow: 2px 4px 10px red;
 background-color: grey;}
 center>h3 {box-shadow: 2px 4px 10px red;
