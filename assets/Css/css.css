@@ -39,7 +39,7 @@ a:hover {
     text-decoration: underline;
 }
 :visited {
-    color: lime;
+    color: black;
 }
 :link {
     color: yellow;
