@@ -1,0 +1,140 @@
+@font-face{
+    font-family: 'text';
+    src: url(https://robaal27.github.io/assets/Css/SourceSansPro-Light.otf);
+    font-weight: normal;
+}
+h1 {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-size: 4em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+h2 {
+    font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+    font-size: 2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+    font-size: 1.5em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: text,'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+blockquote {
+    font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+li {
+    font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+header li {
+    text-align: right;
+    font-size: 16px;
+}
+
+h2.top {
+    text-align: center;
+}
+
+section.filtrar ul {
+    list-style: square;
+}
+
+section.filtrar li {
+    text-align: left;
+}
+
+section.filtrar h2 {
+    text-align: left;
+}
+
+aside{
+text-align: center;
+}
+
+.grups {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 120px 120px;
+  
+
+}
+
+article.dades {
+    text-align: left;
+}
+.text_dades>h2{text-align: left;}
+article>p {
+      font-family: Papyrus, fantasy,'Indie Flower', "Brush Script MT", sa;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+iframe {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    display: block;
+}
+
+ul.footer {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto 100px auto;
+    grid-template-rows: 0px;
+    padding-left: 50%;
+    padding-top: 10px
+}
+
+footer>ul>li {
+    font-family: "Brush Script MT", cursive, fantasy;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+.filtrar{display: none;}
+.text_dades{position: absolute;}
