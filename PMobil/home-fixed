@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Enciclopedia de gats">
+    <meta property="og:url" content="/codepen.io/roger-baroja-alsina/project/editor/DWpxyM#">
+    <meta property="og:description" content="Pagina principal de la gatpedia">
+    <meta property="og:image" content="https://robaal27.github.io/assets/img/content/estudio-confirma-que-el-gato-siente-la-misma-con-912558-494053-jpg_604x0.jpg">
+    <meta name="Author" content="Roger Baroja">
+    <meta  name="data" content="2019-11-14T09:55:00+00:00">
+    <meta name="keywords"   content="gat,home,fife">
+    <link rel="icon" href="https://robaal27.github.io/assets/img/content/estudio-confirma-que-el-gato-siente-la-misma-con-912558-494053-jpg_604x0.jpg" sizes="500x300" type="image/jpeg">
+    <link rel="stylesheet" href="fixed.css">
+    <meta name="viewport" content="width=500cm, initial-scale=1 minimum-scale=10cm">
+    <title>Gatpèdia</title>
+</head>
+
+<body id="Home">
+    <header id="capçalera">
+        <nav>
+            <ul>
+              <li><h1>Gatpèdia</h1></li>
+                <li class="cerca"><a href="cerca.html">Cerca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+  <h2>Introducció</h2>
+  <section class="filtrar">
+            <h2>Filtrar</h2>
+            <nav>
+                <ul class="fnav">
+                    <li>Grup</li>
+                    <ul>
+                        <li>Grup I</li>
+                        <li>Grup II</li>
+                        <li>Grup III</li>
+                        <li>Grup IV</li>
+                    </ul>
+                    <li>Tamany</li>
+                    <ul>
+                        <li>Gran</li>
+                        <li>Mitjà</li>
+                        <li>Petit</li>
+                    </ul>
+                    <li>Pes</li>
+                    <ul>
+                        <li>3-5Kg</li>
+                        <li>5-6Kg</li>
+                        <li>6-8Kg</li>
+                        <li>8-10Kg</li>
+                        <li>+10Kg</li>
+                    </ul>
+                    <li>Caracter</li>
+                    <ul>
+                        <li>Afectuós</li>
+                        <li>Extovertit</li>
+                        <li>intel·ligent</li>
+                        <li>Curiós</li>
+                        <li>Actiu</li>
+                        <li>Timit</li>
+                        <li>Calmat</li>
+                        <li>Solitari</li>
+                    </ul>
+                    <li>Pelatge</li>
+                    <ul>
+                        <li>Llarg</li>
+                        <li>Mitjà</li>
+                        <li>Curt</li>
+                        <li>Sense pèl</li>
+                    </ul>
+                </ul>
+            </nav>
+        </section>
+        <aside>
+            <img src="https://robaal27.github.io/assets/img/content/estudio-confirma-que-el-gato-siente-la-misma-con-912558-494053-jpg_604x0.jpg" alt width="500" height="300">
+          <p>Aquí podràs trobar la informació bàsica i essencial sobre les espècies de gats reconegudes per la FIFe ( Fédération Internationale Féline )</p>
+        </aside>
+        <nav>
+            <ul class="grups">
+              <li><a href="Grup-I.html">Grup I</a></li>
+                <li>Grup II</li>
+                <li>Grup III</li>
+                <li>Grup IV</li>
+            </ul>
+        </nav>
+    </main>
+  <footer id="int">
+    <ul class="footer">
+      <li><a href="http://fifeweb.org/wp/breeds/breeds_prf_stn.php">FIFe</a></li>
+      <li>About us</li>
+    </ul>
+  </footer>
+</body>
+  
