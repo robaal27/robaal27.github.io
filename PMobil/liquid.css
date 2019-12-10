@@ -62,22 +62,28 @@ header li {
     text-align: right;
     font-size: 250%;
 }
-
+header {background-color: lime;
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+}
+main {border-color:black;
+border-style: solid;}
+footer {border-color: black;
+    border-color: solid;
+}
 h2.top {
     text-align: center;
 }
 
-section.filtrar ul {
+
+.filtrar  {
+    position: absolute;
     list-style: square;
+    text-align: left;
+
 }
 
-section.filtrar li {
-    text-align: left;
-}
-
-section.filtrar h2 {
-    text-align: left;
-}
 
 aside{
 text-align: center;
