@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'text';
+    src: url(https://robaal27.github.io/assets/Css/SourceSansPro-Light.otf);
+    font-weight: normal;
+}
+
+* {
+    text-align: center;
+}
+
+@media (min-width: 1434px) {
+    @font-face {
+        font-family: 'text';
+        src: url(https://robaal27.github.io/assets/Css/SourceSansPro-Light.otf);
+        font-weight: normal;
+    }
+
+    .mfiltrar {
+        display: none;
+    }
+
+    header {
+        background-color: lime;
+        border-color: black;
+        border-style: solid;
+    }
+
+    main {
+        border-color: black;
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        max-width: 100em;
+        min-width: 80em;
+    }
+
+    h1 {
+        font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+        font-size: 4em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 1;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 2em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 1.5em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 1;
+        text-align: left;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        font-family: text, 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 1em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 2;
+    }
+
+    blockquote {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 21px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    li {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 1em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
+    header li {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    h2.top {
+        text-align: center;
+    }
+
+    section.filtrar ul {
+        list-style: square;
+    }
+
+    .filtrar {
+        position: absolute;
+        list-style: square;
+        text-align: left;
+
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    .grups {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 120px 120px;
+
+
+    }
+
+    article.dades {
+        text-align: center;
+    }
+
+    article>p {
+        font-family: Papyrus, fantasy, 'Indie Flower', "Brush Script MT", sa;
+        font-size: 1em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    iframe {
+        width: 1000px;
+        height: 1000px;
+        margin: auto;
+        display: block;
+    }
+
+    ul.footer {
+        text-align: center;
+        display: inline-grid;
+        grid-template-columns: auto 100px auto;
+        grid-template-rows: 0px;
+        padding-left: 50%;
+        padding-top: 10px
+    }
+
+    footer>ul>li {
+        font-family: "Brush Script MT", cursive, fantasy;
+        font-size: 1em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 526px) and (max-width: 1433px) {
+    h1 {
+        font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+        font-size: 300%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 250%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 250% font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        font-family: text, 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 200%;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 100%;
+    }
+
+
+    li {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 200%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 200%;
+        text-align: center;
+    }
+
+
+    header li {
+        text-align: right;
+        font-size: 150%;
+    }
+
+    header {
+        background-color: lime;
+        border-color: black;
+        border-style: solid;
+        width: 100%;
+    }
+
+    main {
+        border-color: black;
+        border-style: solid;
+        width: 100%;
+        min-width: 50%;
+    }
+
+    footer {
+        border-color: black;
+        border-style: solid;
+    }
+
+    h2.top {
+        text-align: center;
+    }
+
+    .mfiltrar {
+        display: inherit;
+    }
+
+    .filtrar {
+        position: absolute;
+        list-style: square;
+        text-align: left;
+        display: none;
+
+    }
+
+
+    aside {
+        text-align: center;
+        width: 100%;
+        min-width: 50%;
+    }
+
+    .grups {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+
+
+    }
+
+    article.dades {
+        text-align: center;
+    }
+
+    article>p {
+        font-family: Papyrus, fantasy, 'Indie Flower', "Brush Script MT", sa;
+        font-size: 100%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    iframe {
+        width: 10%;
+        height: 10%;
+        margin: auto;
+        display: block;
+    }
+
+    ul.footer {
+        text-align: center;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 0%;
+
+        padding-top: 10%;
+    }
+
+    footer>ul>li {
+        font-family: "Brush Script MT", cursive, fantasy;
+        font-size: 150%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+}
+
+@media (max-width: 525px) {
+    h1 {
+        font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+        font-size: 300%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 250%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 250% font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        font-family: text, 'Indie Flower', Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 200%;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 100%;
+    }
+
+
+    li {
+        font-family: Papyrus, fantasy, "Brush Script MT", cursive;
+        font-size: 200%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 200%;
+        text-align: center;
+    }
+
+
+    header li {
+        text-align: right;
+        font-size: 150%;
+    }
+
+    header {
+        background-color: lime;
+        border-color: black;
+        border-style: solid;
+        width: 22em;
+    }
+
+    main {
+        border-color: black;
+        border-style: solid;
+        width: 100%;
+        min-width: 50%;
+    }
+
+    footer {
+        border-color: black;
+        border-style: solid;
+    }
+
+    h2.top {
+        text-align: center;
+    }
+
+    .mfiltrar {
+        display: inherit;
+    }
+
+    .filtrar {
+        position: absolute;
+        list-style: square;
+        text-align: left;
+        display: none;
+
+    }
+img {width: 100%}
+
+    aside {
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .grups {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+
+
+    }
+
+    article.dades {
+        text-align: center;
+    }
+
+    article>p {
+        font-family: Papyrus, fantasy, 'Indie Flower', "Brush Script MT", sa;
+        font-size: 100%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    iframe {
+        width: 10%;
+        height: 10%;
+        margin: auto;
+        display: block;
+    }
+
+    ul.footer {
+        text-align: center;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 0%;
+
+        padding-top: 10%;
+    }
+
+    footer>ul>li {
+        font-family: "Brush Script MT", cursive, fantasy;
+        font-size: 150%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+}
